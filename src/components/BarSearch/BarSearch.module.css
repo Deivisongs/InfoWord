@@ -1,0 +1,28 @@
+.divSearch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+}
+.divSearch input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  max-width: 300px;
+  min-width: 200px;
+  box-shadow:
+    -1px -1px 3px rgba(0, 0, 0, 0.083) inset,
+    2px 2px 3px rgba(0, 0, 0, 0.181);
+}
+.divSearch button {
+  width: 40px;
+  height: 32px;
+  border: none;
+  background-color: gold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.181);
+}
+.divSearch button span {
+  color: black;
+  font-weight: 600;
+}

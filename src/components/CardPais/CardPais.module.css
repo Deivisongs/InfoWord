@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid rgba(0, 0, 0, 0.194);
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.174);
+}
+.divImg {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divImg img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+.text {
+  color: rgba(0, 0, 0, 0.757);
+}
+.text h1 {
+  font-size: 35px;
+  margin: 20px 0 10px 0;
+}
+.text p {
+  margin: 5px 0;
+}
